@@ -1,0 +1,18 @@
+body {
+    background-color: rgb(70, 60, 129);
+}
+
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none; /*기호 없앰*/
+}
+
+.nav-item {
+    padding: 20px;
+}
+
+.nav-item a {
+    text-decoration: none; /* 밑줄 없앰 */
+    color: white;
+}
